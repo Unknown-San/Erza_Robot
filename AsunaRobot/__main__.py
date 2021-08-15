@@ -74,58 +74,49 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello` [🌺](https://telegra.ph/file/5c9c60b5360a9a31896a0.jpg) `My name is` *Asuna*
+`Hello` [🌺](https://telegra.ph/file/27af05fdd5fc1f1517bc7.jpg) `My name is` *Erza*
 `I am powerful  group management bot.
 Build by The Ghost Hunter for Your Telegram Group , I specialize in managing Entertainment type groups.
-You can find my list of available commands with! Hit` *📚Commands*   
+You can find my list of available commands with! Hit` *🛠️Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD Asuna TO YOUR GROUP ➕️",url="t.me/My_Asuna_Robot?startgroup=true"),
+            text="➕️ ADD ME TO YOUR GROUP ➕️",url="t.me/My_Asuna_Robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="asuna_"),
-        InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
+         InlineKeyboardButton(
+           text=" 🛠️COMMANDS", callback_data="help_back"),
      
     ],
     [     InlineKeyboardButton(
-            text="🤴 OWNER", url="https://telegram.dog/The_Ghost_Hunter"),
+            text="🗨️Events", url="https://t.me/dhinklasoon"),
     
     ],
     [
         InlineKeyboardButton(
-            text="📺 Star Wolrd Entertainment", url="https://telegram.dog/fire_world_entertainment"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="📕 Logis", url="https://t.me/AsunaLogUpdate"),
-          
-
-
-InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://telegram.dog/AsunaRobotSupport"
-        ),
+            text="📑 Logs", url="https://t.me/erzaoprzaop"),
+         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="💟 Source Code", url="https://github.com/HuntingBots/AsunaRobot"
+                    text="💬 Support", url="@animeweebs3"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Asuna 🛠️]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
+`Hi.. I'm` [Asuna 🛠️](https://telegra.ph/file/27af05fdd5fc1f1517bc7.jpg) 
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-ASUNA_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
+ASUNA_IMG = "https://telegra.ph/file/27af05fdd5fc1f1517bc7.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @a_viyu or @simpleboy786 \
+ You can support the project via [Paypal](#) or by contacting @The_Ghost_Hunter or @AsunaRobotSupport \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
