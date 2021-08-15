@@ -65,7 +65,7 @@ en_chats = []
 from Python_ARQ import ARQ   
 from aiohttp import ClientSession
 ARQ_API_URL = "https://thearq.tech"
-ARQ_API_KEY = "JQKTQB-DDDJCD-KFUMWZ-VPVADF-ARQ"
+ARQ_API_KEY = "CRYMSC-DYIUZI-SHXBIL-AKBNPZ-ARQ"
 
 aiohttpsession = ClientSession()
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
