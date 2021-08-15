@@ -97,7 +97,6 @@ buttons = [
     [
         InlineKeyboardButton(
             text="📑 Logs", url="https://t.me/erzaoprzaop"),
-         ),
 
     ],
     [
