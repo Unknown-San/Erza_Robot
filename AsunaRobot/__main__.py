@@ -86,9 +86,9 @@ buttons = [
             text="➕️ ADD ME TO YOUR GROUP ➕️",url="t.me/My_Asuna_Robot?startgroup=true"),
     ],
     [
-         InlineKeyboardButton(
-           text=" 🛠️COMMANDS", callback_data="help_back"),
-     
+        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="asuna_"),
+        InlineKeyboardButton(text="🛠️ COMMANDS", callback_data="help_back"),
+          
     ],
     [     InlineKeyboardButton(
             text="🗨️Events", url="https://t.me/dhinklasoon"),
