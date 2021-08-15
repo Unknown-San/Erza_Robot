@@ -86,23 +86,23 @@ buttons = [
             text="➕️ ADD Asuna TO YOUR GROUP ➕️",url="t.me/My_Asuna_Robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="🛠️ COMMANDS", callback_data="help_back"),
      
     ],
     [     
         InlineKeyboardButton(
-            text="📕 Logis", url="https://t.me/AsunaLogUpdate"),
+            text="📑 Logis", url="https://t.me/erzaop"),
           
 
 
 InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://telegram.dog/AsunaRobotSupport"
+            text="🗨️ Event", url="https://telegram.dog/dhinklasoon"
         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="💟 Source Code", url="https://github.com/HuntingBots/AsunaRobot"
+                    text="💬 Support Chat", url="https://telegram.dog/animeweebs3"
         ),
     ],
 ]
