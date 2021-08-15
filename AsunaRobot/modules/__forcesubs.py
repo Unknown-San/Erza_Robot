@@ -1,4 +1,4 @@
-# credits  @The_Ghost_Hunter
+# credit for this module DaisyX (InukaAsith)
 
 import logging
 import time
@@ -181,7 +181,7 @@ def config(client, message):
 
 __help__ = """
 *Force Subscribe:*
-❍ Yone can mute members who are not subscribed your channel until they subscribe
+❍ Asuna can mute members who are not subscribed your channel until they subscribe
 ❍ When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 *Setup*
 *Only creator*
