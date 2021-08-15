@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello` [🌺](https://telegra.ph/file/27af05fdd5fc1f1517bc7.jpg) `My name is` *Erza*
+`Hello` [🧖‍♀️](https://telegra.ph/file/27af05fdd5fc1f1517bc7.jpg) `My name is` *Erza*
 `I am powerful  group management bot.
 Build by The Ghost Hunter for Your Telegram Group , I specialize in managing Entertainment type groups.
 You can find my list of available commands with! Hit` *🛠️Commands*   
@@ -83,7 +83,7 @@ You can find my list of available commands with! Hit` *🛠️Commands*
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD Asuna TO YOUR GROUP ➕️",url="t.me/My_Asuna_Robot?startgroup=true"),
+            text="➕️ ADD ME TO YOUR GROUP ➕️",url="t.me/Erza_rebot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="🛠️ COMMANDS", callback_data="help_back"),
@@ -91,7 +91,7 @@ buttons = [
     ],
     [     
         InlineKeyboardButton(
-            text="📑 Logis", url="https://t.me/erzaop"),
+            text="📑 Logs", url="https://t.me/erzaop"),
           
 
 
