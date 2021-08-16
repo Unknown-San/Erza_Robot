@@ -58,7 +58,7 @@ async def fetch(url):
         return
 
 
-asuna_chats = []
+erza_chats = []
 en_chats = []
 # AI Chat (C) 2020-2021 by @InukaAsith
 
